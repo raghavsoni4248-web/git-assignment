@@ -1,0 +1,11 @@
+git init - Initializes a new local Git repository.
+git add <file> - Stages modified or new files for the next commit.
+git commit -m "<message>" - Records staged changes permanently in repository history.
+git branch -m <name> - Renames the current active branch.
+git checkout -b <branch> - Creates a new branch and immediately switches to it.
+git checkout <branch> - Switches from current branch to specified branch.
+git merge <branch> - Merges specified branch into currently active branch.
+git log --oneline --graph --all - Displays commit history tree visually in single-line format.
+git remote add origin <url> - Connects local repository to remote GitHub repository.
+git push -u origin <branch> - Uploads local commits and sets upstream tracking for branch.
+git reset --soft HEAD~1 - Undoes last commit while keeping changes staged locally.
